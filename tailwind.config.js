@@ -7,7 +7,10 @@ module.exports = {
         '15': '3.75rem',
         '128': '32rem',
         '144': '36rem',
-      }
+      },
+      fontFamily: {
+        'redex': 'Readex Pro',
+      },
     }
   },
   plugins: [],

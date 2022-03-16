@@ -13,6 +13,16 @@ module.exports = {
       fontFamily: {
         'redex': 'Readex Pro',
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'goyang': 'wiggle ease-in-out 3s infinite'
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        }
+      }
     }
   },
   plugins: [],
